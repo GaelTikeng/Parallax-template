@@ -17,7 +17,7 @@ body {
 .section1 {
   width: 100%;
   max-height: 1000px;
-  background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+  background-image: url("../images/parallax1.jpg");
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,10 +49,4 @@ body {
   /* width: 100%; */
   float: right;
   padding: 10px 30px 0;
-}
-
-.background h2 {
-  margin: auto;
-  top: 50%;
-  bottom: -50%;
 }
