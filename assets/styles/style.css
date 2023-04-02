@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  /* max-width: 1500px; */
+}
+
+.section1 {
+  width: 100%;
+  max-height: 1000px;
+  background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-elts {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.right-elts a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+}
+
+.search {
+  /* width: 100%; */
+  float: right;
+  padding: 10px 30px 0;
+}
+
+.background h2 {
+  margin: auto;
+  top: 50%;
+  bottom: -50%;
+}
