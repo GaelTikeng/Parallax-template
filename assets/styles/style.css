@@ -16,19 +16,25 @@ body {
 
 .section1 {
   width: 100%;
+  height: 90vh;
   max-height: 1000px;
   background-image: url("../images/parallax1.jpg");
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-bar {
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   color: #000;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -49,4 +55,63 @@ body {
   /* width: 100%; */
   float: right;
   padding: 10px 30px 0;
+}
+
+.background {
+  font-size: 24px;
+  font-weight: 700;
+  background: #000;
+  color: #fff;
+}
+
+.section2 {
+  width: 100%;
+  height: fit-content;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.text h2,
+.text h4 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pic-text {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+
+}
+
+.pic {
+  width: 50%;
+  height: fit-content;
+  padding-top: 15px;
+}
+
+.pic img {
+  padding: 60px;
+}
+
+.pic h4 {
+  text-align: center;
+
+}
+
+.pic-text p {
+  padding-top: 90px;
+}
+
+.phrase p {
+  width: 100%;
+  text-align: center;
+  background: red;
 }
